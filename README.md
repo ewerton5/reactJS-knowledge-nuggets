@@ -39,3 +39,5 @@ Embora este seja um repositório pessoal, sugestões, correções e melhorias s�
 ---
 
 > Aprender um pouco a cada dia é o que transforma conhecimento em sabedoria prática. 🚀
+
+###### [Ir para primeira pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/001-react-fundamentals.md) 👉
