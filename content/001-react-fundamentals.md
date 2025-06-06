@@ -1,8 +1,8 @@
-## 📘 **Pílula de Conhecimento 01 – Fundamentos de React: Virtual DOM, JSX e React Hooks**
+# 📘 **Pílula de Conhecimento 01 – Fundamentos de React: Virtual DOM, JSX e React Hooks**
 
-### 🔹 **1. Conceitos Fundamentais**
+## 🔹 **1. Conceitos Fundamentais**
 
-#### 🧠 Virtual DOM
+### 🧠 Virtual DOM
 
 O **Virtual DOM** (DOM Virtual) é uma representação leve e em memória da árvore real de elementos da interface. Quando o estado de um componente muda:
 
@@ -10,7 +10,7 @@ O **Virtual DOM** (DOM Virtual) é uma representação leve e em memória da ár
 * Compara com a versão anterior usando um algoritmo de "diffing".
 * Atualiza **apenas as partes necessárias** do DOM real, minimizando re-renderizações e melhorando a performance.
 
-#### 💻 JSX (JavaScript XML)
+### 💻 JSX (JavaScript XML)
 
 JSX é uma **sintaxe de extensão do JavaScript** que permite escrever estruturas HTML dentro do código JavaScript:
 
@@ -22,13 +22,13 @@ JSX é convertido em chamadas para `React.createElement()`, gerando objetos que 
 
 ---
 
-### 🔹 **2. React Hooks**
+## 🔹 **2. React Hooks**
 
 React Hooks foram introduzidos no React 16.8 para permitir o uso de **estado e ciclos de vida** em componentes funcionais.
 
 ---
 
-#### ⚙️ useState
+### ⚙️ useState
 
 Permite adicionar estado a componentes funcionais:
 
@@ -42,7 +42,7 @@ const [count, setCount] = useState(0);
 
 ---
 
-#### ⚙️ useEffect
+### ⚙️ useEffect
 
 Hook para lidar com **efeitos colaterais**, como chamadas de API, manipulação do DOM ou subscrições.
 
@@ -68,7 +68,7 @@ useEffect(() => {
 
 ---
 
-#### ⚙️ useCallback
+### ⚙️ useCallback
 
 Hook para memoizar **funções**, evitando que elas sejam recriadas em cada render:
 
@@ -83,7 +83,7 @@ const memoizedFn = useCallback(() => {
 
 ---
 
-#### ⚙️ useMemo
+### ⚙️ useMemo
 
 Memoiza **valores computados**, evitando recalcular em cada render:
 
@@ -98,7 +98,7 @@ const memoizedValue = useMemo(() => expensiveCalculation(a, b), [a, b]);
 
 ---
 
-### 🔹 **3. Hooks vs Métodos Legados de Ciclo de Vida**
+## 🔹 **3. Hooks vs Métodos Legados de Ciclo de Vida**
 
 | Método Legado          | Equivalente com Hooks                                   |
 | ---------------------- | ------------------------------------------------------- |
@@ -112,7 +112,7 @@ const memoizedValue = useMemo(() => expensiveCalculation(a, b), [a, b]);
 
 ---
 
-### 📌 Conclusão
+## 📌 Conclusão
 
 Essa introdução cobre os fundamentos essenciais para trabalhar com React moderno:
 
