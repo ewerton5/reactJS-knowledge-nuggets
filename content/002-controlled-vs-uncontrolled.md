@@ -1,3 +1,5 @@
+###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/001-react-fundamentals.md)
+
 # 📘 Pílula de Conhecimento 02 — Componentes Controlados vs. Não Controlados
 
 ## 🧩 Conceito Geral
@@ -139,3 +141,5 @@ Apesar da vantagem dos componentes não controlados em termos de performance, os
 * Integração natural com validações e regras de negócio
 
 Por isso, ao criar formulários em React, **prefira componentes controlados** e utilize bibliotecas como React Hook Form junto de Yup ou Zod para garantir uma boa UX e dados consistentes.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/003-conditional-rendering.md) 👉
