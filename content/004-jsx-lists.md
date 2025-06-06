@@ -1,3 +1,5 @@
+###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/003-conditional-rendering.md)
+
 # 📚 Pílula de Conhecimento 04 — Listas em JSX, a prop `key`, `FlatList` e performance no React Native
 
 ## 🔁 Renderizando listas no JSX
