@@ -12,7 +12,7 @@ O principal objetivo deste repositório é:
 
 ## 📂 Estrutura
 
-As pílulas estão organizadas em arquivos `.md` (Markdown), numerados ou nomeados conforme o tema tratado. Cada arquivo contém:
+As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeados conforme o tema tratado. Cada arquivo contém:
 
 - Uma explicação detalhada do conceito abordado.
 - Exemplos de código (quando aplicável).
@@ -24,6 +24,12 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados ou nomead
 - Para desenvolvedores iniciantes que estão aprendendo ReactJS.
 - Para profissionais que querem reforçar fundamentos ou revisar conceitos importantes.
 - Para quem gosta de aprender e ensinar através de pequenos conteúdos objetivos.
+
+## Conteúdo
+
+- [Fundamentos de React: Virtual DOM, JSX e React Hooks](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/001-react-fundamentals.md)
+- [Componentes Controlados vs. Não Controlados](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/002-controlled-vs-uncontrolled.md)
+- [Renderização Condicional](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/003-conditional-rendering.md)
 
 ## 🤝 Contribuição
 
