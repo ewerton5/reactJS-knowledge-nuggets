@@ -1,12 +1,12 @@
 ###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/004-jsx-lists.md)
 
-## 📘 **React Context API: Compartilhando Estado Global de Forma Simples**
+# 📘 Pílula de Conhecimento 05 — React Context API: Compartilhando Estado Global de Forma Simples
 
 No desenvolvimento com React, quando precisamos compartilhar dados entre componentes que não são diretamente pai e filho, temos duas opções muito comuns: usar bibliotecas como Redux ou a **Context API do React**. A **Context API** permite gerenciar e compartilhar estados de forma mais simples e nativa, sem a necessidade de passar props manualmente em vários níveis da árvore de componentes.
 
 ---
 
-### 🔧 **Criação de um Contexto com `createContext`**
+## 🔧 **Criação de um Contexto com `createContext`**
 
 O primeiro passo para utilizar a Context API é criar o contexto:
 
@@ -20,7 +20,7 @@ Esse contexto será o canal de comunicação entre os componentes.
 
 ---
 
-### 🧩 **Criando o Provider e Englobando os Componentes**
+## 🧩 **Criando o Provider e Englobando os Componentes**
 
 Para que os componentes tenham acesso ao contexto, eles precisam estar dentro de um **Provider**. É no Provider que você define quais dados serão compartilhados:
 
@@ -43,7 +43,7 @@ Na prática, isso significa que qualquer componente "filho" dentro de `AuthProvi
 
 ---
 
-### 🧪 **Consumindo o Contexto com `useContext`**
+## 🧪 **Consumindo o Contexto com `useContext`**
 
 Com o contexto criado e o Provider em volta dos componentes, podemos consumi-lo com o hook `useContext`:
 
@@ -62,7 +62,7 @@ const Profile = () => {
 
 ---
 
-### 🧵 **Combinando com outros Hooks: `useState`, `useEffect`, `useMemo`**
+## 🧵 **Combinando com outros Hooks: `useState`, `useEffect`, `useMemo`**
 
 O Contexto é apenas um container. Dentro do provider, podemos usar quantos hooks forem necessários para enriquecer a lógica:
 
@@ -92,7 +92,7 @@ export const AuthProvider = ({ children }) => {
 
 ---
 
-### 📦 **Mesclando Redux com Context API**
+## 📦 **Mesclando Redux com Context API**
 
 Embora o Redux tenha seu próprio sistema de Provider, é possível usar `useSelector` e `useDispatch` junto com um contexto local. Isso permite, por exemplo, combinar estados globais (Redux) com estados locais (Context):
 
@@ -115,7 +115,7 @@ const Dashboard = () => {
 
 ---
 
-### 🔐 **Contexto com Persistência: AsyncStorage + Context**
+## 🔐 **Contexto com Persistência: AsyncStorage + Context**
 
 Uma estratégia comum em apps mobile é usar o **AsyncStorage** para manter dados persistidos e resgatá-los no início da aplicação:
 
@@ -134,7 +134,7 @@ useEffect(() => {
 
 ---
 
-### 🔁 **Estrutura Reutilizável de Contexto**
+## 🔁 **Estrutura Reutilizável de Contexto**
 
 Aqui vai um padrão limpo e escalável para organizar seus contextos:
 
@@ -170,7 +170,7 @@ const Header = () => {
 
 ---
 
-### 🧠 **Resumo Prático**
+## 🧠 **Resumo Prático**
 
 * **`createContext`** cria o canal.
 * **Provider** disponibiliza os dados para os filhos.
