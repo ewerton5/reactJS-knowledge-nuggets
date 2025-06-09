@@ -1,6 +1,6 @@
 ###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/003-conditional-rendering.md)
 
-# 📚 Pílula de Conhecimento 04 — Listas em JSX, a prop `key`, `FlatList` e performance no React Native
+# 📘 Pílula de Conhecimento 04 — Listas em JSX, a prop `key`, `FlatList` e performance no React Native
 
 ## 🔁 Renderizando listas no JSX
 
@@ -161,3 +161,5 @@ Essas bibliotecas aproveitam a base da `FlatList`, mas adicionam funcionalidades
 ### ✅ Conclusão
 
 Use `FlatList` sempre que lidar com listas no React Native. Evite `.map()` diretamente em elementos grandes. A `FlatList` foi feita **pensando em performance**, e usar bem suas props e boas práticas pode evitar dores de cabeça com lentidão, travamentos e consumo excessivo de memória.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/005-react-context-api.md) 👉
