@@ -177,3 +177,5 @@ const Header = () => {
 * **`useContext`** consome esses dados.
 * Pode ser usado junto com **`useState`**, **`useEffect`**, **Redux (`useSelector`, `useDispatch`)** e **AsyncStorage**.
 * Ideal para estados compartilhados em várias telas: tema, autenticação, idioma, carrinho etc.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/006-design-system.md) 👉
