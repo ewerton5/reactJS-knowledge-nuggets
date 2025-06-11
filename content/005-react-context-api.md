@@ -1,36 +1,43 @@
 ###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/004-jsx-lists.md)
 
-# 📘 Pílula de Conhecimento 05 — React Context API: Compartilhando Estado Global de Forma Simples
+# 📘 Pílula de Conhecimento 05 — React Context API: Compartilhando Estado Global
 
-No desenvolvimento com React, quando precisamos compartilhar dados entre componentes que não são diretamente pai e filho, temos duas opções muito comuns: usar bibliotecas como Redux ou a **Context API do React**. A **Context API** permite gerenciar e compartilhar estados de forma mais simples e nativa, sem a necessidade de passar props manualmente em vários níveis da árvore de componentes.
+Em uma aplicação React, é comum precisarmos compartilhar dados entre componentes distantes na árvore de componentes. Passar props manualmente através de vários níveis intermediários é um processo conhecido como **"prop drilling"** (perfuração de props), que torna o código verboso e difícil de manter.
+
+A **Context API** é a solução nativa do React para esse problema. Ela cria um "canal" global que permite a um componente pai disponibilizar dados para qualquer um de seus descendentes, não importa quão profundos eles estejam, sem a necessidade de passar props manualmente.
 
 ---
 
-## 🔧 **Criação de um Contexto com `createContext`**
+## 🛠️ O Fluxo de Trabalho em 3 Passos
 
-O primeiro passo para utilizar a Context API é criar o contexto:
+A implementação da Context API segue um padrão simples e lógico.
+
+### Passo 1: Criar o Contexto com `createContext`
+
+Primeiro, criamos o "canal" de comunicação. Esta função retorna um objeto com dois componentes: `Provider` e `Consumer`.
 
 ```tsx
+// src/contexts/AuthContext.tsx
 import { createContext } from 'react';
 
+// O valor inicial (null) é usado se um componente tentar consumir o contexto
+// fora de um Provider.
 export const AuthContext = createContext(null);
 ```
 
-Esse contexto será o canal de comunicação entre os componentes.
+### Passo 2: Fornecer o Estado com o Provider
 
----
-
-## 🧩 **Criando o Provider e Englobando os Componentes**
-
-Para que os componentes tenham acesso ao contexto, eles precisam estar dentro de um **Provider**. É no Provider que você define quais dados serão compartilhados:
+O componente `Provider` é usado para "envolver" a parte da sua aplicação que precisa de acesso aos dados. Ele aceita uma prop `value`, que é onde você define os dados e funções que serão compartilhados.
 
 ```tsx
+// src/contexts/AuthContext.tsx
 import React, { useState } from 'react';
 import { AuthContext } from './AuthContext';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
+  // Todos os componentes dentro de AuthProvider poderão acessar `user` e `setUser`.
   return (
     <AuthContext.Provider value={{ user, setUser }}>
       {children}
@@ -39,143 +46,116 @@ export const AuthProvider = ({ children }) => {
 };
 ```
 
-Na prática, isso significa que qualquer componente "filho" dentro de `AuthProvider` pode acessar `user` e `setUser`.
+### Passo 3: Consumir o Estado com `useContext`
 
----
-
-## 🧪 **Consumindo o Contexto com `useContext`**
-
-Com o contexto criado e o Provider em volta dos componentes, podemos consumi-lo com o hook `useContext`:
+Finalmente, qualquer componente filho dentro do `Provider` pode "se inscrever" e acessar os dados compartilhados usando o hook `useContext`.
 
 ```tsx
+// src/components/Profile.tsx
 import React, { useContext } from 'react';
-import { AuthContext } from './AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 
 const Profile = () => {
+  // O hook recebe o objeto de contexto e retorna o `value` do Provider mais próximo.
   const { user } = useContext(AuthContext);
 
-  return (
-    <Text>Usuário logado: {user?.name}</Text>
-  );
+  if (!user) {
+    return <Text>Nenhum usuário logado.</Text>;
+  }
+
+  return <Text>Usuário logado: {user.name}</Text>;
 };
 ```
 
 ---
 
-## 🧵 **Combinando com outros Hooks: `useState`, `useEffect`, `useMemo`**
+## 🚀 A Melhor Prática: Criando um Hook Customizado
 
-O Contexto é apenas um container. Dentro do provider, podemos usar quantos hooks forem necessários para enriquecer a lógica:
+Para tornar o uso do seu contexto mais limpo, seguro e reutilizável, a melhor prática é criar um hook customizado que encapsula a lógica do `useContext`.
+
+Veja a estrutura completa e recomendada:
 
 ```tsx
-import React, { useEffect } from 'react';
+// src/contexts/AuthContext.tsx
+import { createContext, useContext, useState, useEffect } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
+// 1. Criar o contexto
+const AuthContext = createContext(null);
+
+// 2. Criar o Provider, com toda a lógica de estado
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
+  // Lógica para carregar dados persistidos ao iniciar o app
   useEffect(() => {
-    // Simulação de carregamento do usuário com AsyncStorage
-    const loadUser = async () => {
-      const storedUser = await AsyncStorage.getItem('user');
-      if (storedUser) setUser(JSON.parse(storedUser));
+    const loadUserFromStorage = async () => {
+      const storedUser = await AsyncStorage.getItem('@user');
+      if (storedUser) {
+        setUser(JSON.parse(storedUser));
+      }
+      setIsLoading(false);
     };
 
-    loadUser();
+    loadUserFromStorage();
   }, []);
 
-  return (
-    <AuthContext.Provider value={{ user, setUser }}>
-      {children}
-    </AuthContext.Provider>
-  );
-};
-```
-
----
-
-## 📦 **Mesclando Redux com Context API**
-
-Embora o Redux tenha seu próprio sistema de Provider, é possível usar `useSelector` e `useDispatch` junto com um contexto local. Isso permite, por exemplo, combinar estados globais (Redux) com estados locais (Context):
-
-```tsx
-import { useSelector, useDispatch } from 'react-redux';
-
-const Dashboard = () => {
-  const { user } = useContext(AuthContext);
-  const theme = useSelector((state) => state.theme);
-  const dispatch = useDispatch();
-
-  return (
-    <View>
-      <Text>Olá, {user.name}</Text>
-      <Text>Tema atual: {theme}</Text>
-    </View>
-  );
-};
-```
-
----
-
-## 🔐 **Contexto com Persistência: AsyncStorage + Context**
-
-Uma estratégia comum em apps mobile é usar o **AsyncStorage** para manter dados persistidos e resgatá-los no início da aplicação:
-
-```tsx
-useEffect(() => {
-  const checkLogin = async () => {
-    const savedUser = await AsyncStorage.getItem('user');
-    if (savedUser) {
-      setUser(JSON.parse(savedUser));
-    }
+  const signIn = async (userData) => {
+    setUser(userData);
+    await AsyncStorage.setItem('@user', JSON.stringify(userData));
   };
 
-  checkLogin();
-}, []);
-```
+  const signOut = async () => {
+    setUser(null);
+    await AsyncStorage.removeItem('@user');
+  };
 
----
+  const value = { user, isLoading, signIn, signOut };
 
-## 🔁 **Estrutura Reutilizável de Contexto**
-
-Aqui vai um padrão limpo e escalável para organizar seus contextos:
-
-```tsx
-// context/AuthContext.js
-import { createContext, useContext, useState } from 'react';
-
-const AuthContext = createContext();
-
-export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
-
-  return (
-    <AuthContext.Provider value={{ user, setUser }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
 
-export const useAuth = () => useContext(AuthContext);
-```
+// 3. Criar o Hook customizado para consumir o contexto
+export const useAuth = () => {
+  const context = useContext(AuthContext);
 
-Com isso, em qualquer componente você pode fazer:
+  if (!context) {
+    throw new Error('useAuth deve ser usado dentro de um AuthProvider');
+  }
 
-```tsx
-import { useAuth } from './context/AuthContext';
-
-const Header = () => {
-  const { user } = useAuth();
-  return <Text>Bem-vindo, {user?.name}</Text>;
+  return context;
 };
 ```
 
+**Vantagens dessa abordagem:**
+* **Encapsulamento:** Toda a lógica de autenticação fica isolada no `AuthProvider`.
+* **Facilidade de Uso:** Os componentes consomem tudo com uma única chamada: `const { user, signIn } = useAuth();`.
+* **Segurança:** O check `if (!context)` garante que o hook não seja usado fora do provider, evitando erros.
+
 ---
 
-## 🧠 **Resumo Prático**
+## 🤔 Context API vs. Redux: Quando usar cada um?
 
-* **`createContext`** cria o canal.
-* **Provider** disponibiliza os dados para os filhos.
-* **`useContext`** consome esses dados.
-* Pode ser usado junto com **`useState`**, **`useEffect`**, **Redux (`useSelector`, `useDispatch`)** e **AsyncStorage**.
-* Ideal para estados compartilhados em várias telas: tema, autenticação, idioma, carrinho etc.
+Embora ambos gerenciem estado, eles servem a propósitos diferentes:
+
+* **Context API:**
+    * **Ideal para:** Estado que muda com baixa frequência, como dados de autenticação, tema (claro/escuro), idioma ou configurações do usuário.
+    * **Vantagem:** Simples, nativo do React, sem dependências externas.
+    * **Cuidado:** Pode causar re-renderizações desnecessárias em componentes que consomem o contexto se o `value` do provider for recriado a cada render. Use `useMemo` para otimizar o objeto `value` se necessário.
+
+* **Redux (ou Zustand, Jotai):**
+    * **Ideal para:** Estado global complexo e que muda com alta frequência, como o estado de um editor de texto, um carrinho de compras complexo ou dados de UI que vários componentes manipulam.
+    * **Vantagem:** Ferramentas poderosas (Redux DevTools, middleware), performance otimizada para atualizações frequentes e um fluxo de dados mais previsível e escalável (actions, reducers).
+
+É totalmente possível e comum usar ambos: **Redux** para o estado global complexo da aplicação e **Context API** para estados mais "locais" ou de escopo específico, como o controle de um modal.
+
+---
+
+## ✅ Conclusão
+
+A **Context API** é a ferramenta padrão do React para resolver o problema de **prop drilling** de forma limpa e eficiente. É a escolha perfeita para compartilhar dados que não mudam a todo momento, como informações de sessão, tema e configurações.
+
+Ao criar um **Provider** para encapsular a lógica e um **hook customizado** para consumir os dados, você obtém uma arquitetura de estado global que é ao mesmo tempo simples, robusta e fácil de manter.
 
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/006-design-system.md) 👉
