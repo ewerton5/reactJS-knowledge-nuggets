@@ -33,6 +33,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Listas em JSX, a prop key, FlatList](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/004-jsx-lists.md)
 - [React Context API](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/005-react-context-api.md)
 - [Organização e Reutilização de Componentes](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/006-design-system.md)
+- [Navegação em React: Web vs. Mobile](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/007-navigation.md)
 
 ## 🤝 Contribuição
 
