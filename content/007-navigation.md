@@ -165,3 +165,5 @@ Embora ambos resolvam o problema de navegação, cada biblioteca é mestre em se
 * **`react-navigation`** é otimizada para o **mobile**, fornecendo os blocos de construção (Stack, Tab, Drawer) e as animações nativas que os usuários de iOS e Android esperam.
 
 Compreender a filosofia e os hooks principais de cada uma é fundamental para construir aplicações React coesas e intuitivas em qualquer plataforma.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/008-side-effects.md) 👉
