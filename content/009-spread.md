@@ -1,4 +1,4 @@
-###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/refs/heads/main/content/008-side-effects.md)
+###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/008-side-effects.md)
 
 # 📘 Pílula de Conhecimento 09 — A Versatilidade do Operador Spread/Rest (`...`)
 
