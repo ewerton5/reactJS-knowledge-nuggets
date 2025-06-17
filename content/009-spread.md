@@ -166,3 +166,5 @@ O operador `...` é uma ferramenta de dupla utilidade indispensável no JavaScri
 * Como **Rest**, ele oferece uma forma elegante de capturar múltiplos elementos, seja em **parâmetros de funções** ou na **desestruturação** de objetos e arrays.
 
 Dominar seu uso não só torna o código mais conciso e legível, mas também abre portas para padrões de programação mais robustos e flexíveis.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/010-redux.md) 👉
