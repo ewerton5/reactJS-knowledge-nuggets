@@ -196,3 +196,5 @@ Dominar os **Side Effects** é o que transforma uma aplicação estática em uma
 * Organize sua lógica de API em uma camada de **`services`** para manter o código limpo e reutilizável.
 * Em aplicações complexas com **Redux**, use um middleware como o **Redux Saga** para gerenciar side effects de forma declarativa e robusta.
 * Para funcionalidades de **tempo real**, utilize **WebSockets** para criar uma comunicação instantânea entre o cliente e o servidor.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/009-spread.md) 👉
