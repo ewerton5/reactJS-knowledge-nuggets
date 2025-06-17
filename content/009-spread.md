@@ -1,3 +1,5 @@
+###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/refs/heads/main/content/008-side-effects.md)
+
 # 📘 Pílula de Conhecimento 09 — A Versatilidade do Operador Spread/Rest (`...`)
 
 O operador de três pontos (`...`) é uma das ferramentas mais poderosas e flexíveis do JavaScript moderno. Dependendo do contexto, ele pode atuar de duas formas opostas, mas complementares:
