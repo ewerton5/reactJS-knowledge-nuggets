@@ -37,6 +37,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Side Effects](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/008-side-effects.md)
 - [A Versatilidade do Operador Spread/Rest (...)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/009-spread.md)
 - [Redux: Gerenciamento de Estado Global](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/010-redux.md)
+- [Estilização de Componentes em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/011-style.md)
 
 ## 🤝 Contribuição
 
