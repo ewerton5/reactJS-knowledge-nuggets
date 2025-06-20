@@ -173,3 +173,5 @@ Redux é uma ferramenta extremamente poderosa, ideal para aplicações grandes o
 * **Escalabilidade:** A separação de responsabilidades (actions, reducers, sagas) ajuda a manter o código organizado à medida que a aplicação cresce.
 
 Com o **Redux Toolkit**, o Redux se tornou muito mais acessível e menos verboso, consolidando-se como uma solução robusta e moderna para os desafios de estado em aplicações React complexas.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/011-style.md) 👉
