@@ -204,3 +204,5 @@ A estilização no ecossistema React é flexível e poderosa.
   * Tenha o guia de propriedades como uma referência rápida, sempre prestando atenção às diferenças entre a web e o mobile.
 
 Dominar essas ferramentas permite criar interfaces consistentes, bonitas e fáceis de manter.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/010-redux.md) 👉
