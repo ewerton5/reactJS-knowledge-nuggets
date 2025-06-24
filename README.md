@@ -39,6 +39,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Redux: Gerenciamento de Estado Global](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/010-redux.md)
 - [Estilização de Componentes em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/011-style.md)
 - [React Query: Gerenciando o Estado do Servidor](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/012-react-query.md)
+- [Boas Práticas e Padronização de Código](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/013-code-standardization.md)
 
 ## 🤝 Contribuição
 
