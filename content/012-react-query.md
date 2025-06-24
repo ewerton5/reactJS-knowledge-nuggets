@@ -305,3 +305,5 @@ React Query muda a forma como pensamos sobre dados em aplicações React. Ele no
   * **Código mais simples:** Reduz drasticamente a quantidade de código boilerplate que normalmente escrevemos para lidar com dados assíncronos.
 
 Para a maioria das aplicações que consomem APIs, adotar o React Query é uma das melhores decisões para aumentar a produtividade e a qualidade da experiência do usuário em aplicações que consomem APIs.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/013-code-standardization.md) 👉
