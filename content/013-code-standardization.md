@@ -279,3 +279,5 @@ Pode parecer um excesso de arquivos de configuração, mas juntos eles formam um
 - A **colaboração em equipe** seja fluida e sem atritos de formatação.
 
 Investir tempo em uma configuração sólida de padronização é o que permite que um projeto cresça de forma saudável e sustentável.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/014-automated-testing.md) 👉
