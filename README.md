@@ -41,6 +41,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [React Query: Gerenciando o Estado do Servidor](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/012-react-query.md)
 - [Boas Práticas e Padronização de Código](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/013-code-standardization.md)
 - [Testes Automatizados em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/014-automated-testing.md)
+- [Mirage JS: Desenvolvendo e Testando sem Backend](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/015-miragejs.md)
 
 ## 🤝 Contribuição
 
