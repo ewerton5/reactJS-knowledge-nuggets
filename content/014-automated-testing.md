@@ -133,3 +133,5 @@ Uma estratégia de testes eficaz combina diferentes abordagens:
   * **Poucos testes E2E (Cypress/Detox):** São mais lentos e frágeis, mas indispensáveis para garantir que os fluxos mais críticos da sua aplicação estão funcionando de ponta a ponta.
 
 Começar a escrever testes pode parecer um esforço extra, mas o investimento se paga rapidamente ao proporcionar uma rede de segurança que permite desenvolver e evoluir a aplicação com muito mais velocidade e confiança.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/015-miragejs.md) 👉
