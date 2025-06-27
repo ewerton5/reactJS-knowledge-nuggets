@@ -127,3 +127,5 @@ O Mirage JS é uma ferramenta de desenvolvimento poderosa que desacopla o fronte
   * **Melhorar a experiência do desenvolvedor:** Trabalhe de forma mais eficiente e com menos bloqueios.
 
 Integrar o Mirage JS no seu fluxo de trabalho é um grande passo para criar aplicações mais robustas e acelerar o ciclo de desenvolvimento.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/016-error-handling.md) 👉
