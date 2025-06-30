@@ -140,3 +140,5 @@ Tão importante quanto a lógica técnica é a forma como o erro é comunicado a
 ## ✅ Conclusão
 
 Um tratamento de erros eficaz é uma combinação de estratégias técnicas e um bom design de experiência do usuário. Uma aplicação robusta não é aquela que nunca falha, mas sim aquela que sabe **antecipar, capturar, comunicar e se recuperar de falhas** de forma elegante e intuitiva. Ao prever os diferentes cenários de erro, você constrói um produto mais confiável e profissional.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/017-forms.md) 👉
