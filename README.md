@@ -44,6 +44,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Mirage JS: Desenvolvendo e Testando sem Backend](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/015-miragejs.md)
 - [Tratamento de Erros em Aplicações React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/016-error-handling.md)
 - [Gerenciamento de Formulários em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/017-forms.md)
+- [Estratégia Offline First em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/018-offline-first.md)
 
 ## 🤝 Contribuição
 
