@@ -189,3 +189,5 @@ Bibliotecas de formulário são ferramentas essenciais para criar aplicações r
   * **React Hook Form + Zod:** A escolha moderna, oferecendo melhor performance, uma API mais limpa e integração superior com TypeScript.
 
 Para novos projetos, **React Hook Form + Zod** é geralmente a recomendação, mas ambas as abordagens são excelentes para construir formulários complexos de maneira organizada e eficiente.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/018-offline-first.md) 👉
