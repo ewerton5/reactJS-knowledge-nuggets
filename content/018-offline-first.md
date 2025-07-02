@@ -116,3 +116,5 @@ A estratégia Offline First transforma a experiência do usuário, tornando a ap
   * O uso de um banco de dados local como o **WatermelonDB** é a solução profissional e escalável, que permite criar aplicações ricas e que funcionam perfeitamente offline.
 
 Adotar o Offline First é uma decisão de arquitetura que deve ser planejada desde o início do projeto, mas o resultado é um produto final de qualidade e confiabilidade muito superiores.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/019-native-android.md) 👉
