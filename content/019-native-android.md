@@ -135,3 +135,5 @@ Este comando irá gerar um arquivo **`.apk`** (Android Package Kit) universal em
 ## ✅ Conclusão
 
 Embora o React Native abstraia grande parte da complexidade nativa, ter um conhecimento básico da pasta `android` é essencial para qualquer desenvolvedor da plataforma. Saber onde configurar permissões, alterar ícones e, principalmente, como gerar uma versão de lançamento assinada são habilidades cruciais que separam um projeto de desenvolvimento de um produto pronto para o mercado.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/020-native-ios.md) 👉
