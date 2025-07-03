@@ -46,6 +46,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Gerenciamento de Formulários em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/017-forms.md)
 - [Estratégia Offline First em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/018-offline-first.md)
 - [O Lado Nativo do React Native (Foco em Android)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/019-native-android.md)
+- [O Lado Nativo do React Native (Foco em iOS)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/020-native-ios.md)
 
 ## 🤝 Contribuição
 
