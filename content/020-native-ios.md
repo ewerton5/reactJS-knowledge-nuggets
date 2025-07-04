@@ -87,3 +87,5 @@ O processo de enviar uma build para a Apple é feito através do Xcode.
 ## ✅ Conclusão
 
 Embora o React Native faça um ótimo trabalho em abstrair a complexidade nativa, um conhecimento básico do ecossistema iOS e do Xcode é indispensável para qualquer desenvolvedor que precise publicar um aplicativo na App Store. Entender onde configurar permissões no `Info.plist`, como gerenciar ícones no `Assets.xcassets` e, principalmente, dominar o fluxo de arquivamento e distribuição são habilidades que transformam um projeto de desenvolvimento em um produto real no universo Apple.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/021-deep-link.md) 👉
