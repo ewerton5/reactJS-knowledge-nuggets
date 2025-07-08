@@ -129,3 +129,5 @@ function DetailsScreen() {
 ## ✅ Conclusão
 
 Deep Linking é uma tecnologia essencial para integrar sua aplicação móvel ao ecossistema digital mais amplo. Ela quebra as barreiras do aplicativo, permitindo criar pontos de entrada contextuais que melhoram drasticamente a aquisição e o engajamento de usuários. Uma implementação bem-sucedida requer uma configuração cuidadosa tanto no React Navigation quanto nos projetos nativos, mas o resultado é uma experiência de usuário muito mais fluida e conectada.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/022-auth.md) 👉
