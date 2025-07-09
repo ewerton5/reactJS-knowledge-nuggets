@@ -309,3 +309,5 @@ Este padrão garante que o usuário só possa acessar as telas protegidas da apl
 ## ✅ Conclusão
 
 A autenticação é uma parte crítica e complexa de qualquer aplicação. A escolha do método ideal — seja um sistema JWT customizado, login social ou uma plataforma gerenciada como Firebase — depende das necessidades do seu produto e da experiência que você deseja oferecer. Independentemente da abordagem, priorizar o armazenamento seguro de tokens, oferecer opções de MFA e gerenciar o fluxo de navegação com base no estado de autenticação são práticas essenciais para construir aplicações seguras e confiáveis.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/023-zustand.md) 👉
