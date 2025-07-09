@@ -49,6 +49,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [O Lado Nativo do React Native (Foco em iOS)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/020-native-ios.md)
 - [Deep Linking em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/021-deep-link.md)
 - [Padrões de Autenticação em Aplicações Modernas](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/022-auth.md)
+- [Zustand: Gerenciamento de Estado Global com Simplicidade](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/023-zustand.md)
 
 ## 🤝 Contribuição
 
