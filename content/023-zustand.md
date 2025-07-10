@@ -148,3 +148,5 @@ Com isso, o estado de autenticação será mantido mesmo que o usuário feche e 
 ## ✅ Conclusão
 
 O **Zustand** é uma alternativa fantástica e moderna no mundo do gerenciamento de estado. Ele oferece o poder de um estado global sem o peso e a complexidade do Redux. Sua simplicidade, performance e flexibilidade o tornam uma escolha excelente para a maioria das aplicações React e React Native, permitindo que os desenvolvedores construam funcionalidades de forma mais rápida e com menos código.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/024-react-native-utilities-part-1.md) 👉
