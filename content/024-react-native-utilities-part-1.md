@@ -231,3 +231,5 @@ const SmoothScreen = ({ navigation }) => {
 ## ✅ Conclusão
 
 Dominar essas APIs e hooks nativos é o que permite criar aplicações React Native que se sentem verdadeiramente "nativas". Eles são as ferramentas que dão a você o controle sobre o ciclo de vida do app, interações do usuário e o hardware do dispositivo, resultando em uma experiência final mais polida, performática e profissional.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/025-react-native-utilities-part-2.md) 👉
