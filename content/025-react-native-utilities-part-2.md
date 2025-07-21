@@ -172,3 +172,5 @@ DevSettings.addMenuItem('Limpar Dados Locais', () => {
 ## ✅ Conclusão
 
 Este segundo conjunto de utilidades demonstra ainda mais a profundidade da integração do React Native com as plataformas nativas. Saber como usar essas APIs permite criar aplicativos que não só parecem nativos, mas também se comportam como tal, reagindo ao estado do sistema, interagindo com outras aplicações e fornecendo ferramentas de depuração poderosas para o desenvolvedor.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/026-regex.md) 👉
