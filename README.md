@@ -53,6 +53,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Utilidades do React Native (Parte 1)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/024-react-native-utilities-part-1.md)
 - [Utilidades do React Native (Parte 2)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/025-react-native-utilities-part-2.md)
 - [Desvendando Expressões Regulares (Regex)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/026-regex.md)
+- [Utilidades Nativas de Strings e Números](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/027-string-utilities.md)
 
 ## 🤝 Contribuição
 
