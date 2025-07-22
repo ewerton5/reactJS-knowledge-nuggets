@@ -124,3 +124,5 @@ Regex é uma ferramenta de "alto poder, alta complexidade".
 ## ✅ Conclusão
 
 As Expressões Regulares são uma ferramenta indispensável no arsenal de qualquer desenvolvedor JavaScript. Embora sua sintaxe possa parecer intimidadora, dominar os conceitos básicos permite resolver problemas complexos de manipulação de strings de forma concisa e elegante. Use-as com sabedoria, priorizando a legibilidade, e elas se tornarão uma aliada poderosa para simplificar seu código.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/027-string-utilities.md) 👉
