@@ -120,3 +120,5 @@ Existem três formas principais de converter strings para números, cada uma com
 ## ✅ Conclusão
 
 Dominar os métodos nativos de strings e números é uma habilidade fundamental para qualquer desenvolvedor JavaScript. Eles frequentemente oferecem a solução mais direta, legível e performática para desafios comuns de manipulação de dados, servindo como uma excelente alternativa antes de recorrer a soluções mais complexas como o Regex.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/028-array-utilities.md) 👉
