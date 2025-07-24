@@ -55,6 +55,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Desvendando Expressões Regulares (Regex)](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/026-regex.md)
 - [Utilidades Nativas de Strings e Números](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/027-string-utilities.md)
 - [Métodos Essenciais de Arrays em JavaScript](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/028-array-utilities.md)
+- [Promises e Async/Await: Dominando a Assincronicidade](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/029-promise.md)
 
 ## 🤝 Contribuição
 
