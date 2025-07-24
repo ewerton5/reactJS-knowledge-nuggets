@@ -146,3 +146,5 @@ const palavras = frases.flatMap(frase => frase.split(' '));
 ## ✅ Conclusão
 
 Dominar os métodos de array é um passo fundamental para escrever um código JavaScript mais limpo, funcional e declarativo. Entender o que cada método faz, o que ele retorna e se ele modifica o array original é crucial para evitar bugs. Praticar com os "cinco grandes" (`map`, `filter`, `reduce`, `find`, `some`/`every`) já resolve a grande maioria dos problemas com listas de forma elegante e eficiente.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/029-promise.md) 👉
