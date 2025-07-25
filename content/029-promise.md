@@ -123,3 +123,5 @@ Isso reduz drasticamente o tempo total de espera, pois as operações ocorrem si
   * **`Promise.all()`** é a ferramenta essencial para otimizar o desempenho ao lidar com múltiplas operações assíncronas.
 
 Adotar um padrão consistente (`async`/`await` na maioria dos casos) e saber como usar essas ferramentas de forma eficaz tornará seu código mais limpo, robusto e performático.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/030-advanced-hooks.md) 👉
