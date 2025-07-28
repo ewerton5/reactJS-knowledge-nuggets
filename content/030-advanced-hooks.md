@@ -179,3 +179,5 @@ Essas APIs e hooks avançados são ferramentas poderosas para cenários específ
   * **`forwardRef`** e **`useImperativeHandle`** para criar APIs imperativas controladas para seus componentes.
 
 Saber quando (e, mais importante, quando **não**) usá-los é uma marca de um desenvolvedor React experiente, capaz de escrever código não apenas funcional, mas também performático e de fácil manutenção.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/031-lodash.md) 👉
