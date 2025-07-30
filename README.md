@@ -58,6 +58,8 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Promises e Async/Await: Dominando a Assincronicidade](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/029-promise.md)
 - [Hooks e APIs Avançadas do React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/030-advanced-hooks.md)
 - [Lodash: O Canivete Suíço do JavaScript](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/031-lodash.md)
+- [Algoritmos de Busca e Otimização](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/032-search-and-optimization-algorithms.md)
+- [Implementando Login Social em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/033-social-sign-in.md)
 
 ## 🤝 Contribuição
 
