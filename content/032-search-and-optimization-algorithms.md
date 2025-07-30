@@ -1,4 +1,4 @@
-###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/031-lodash-hooks.md)
+###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/031-lodash.md)
 
 # 📘 Pílula de Conhecimento 32 — Algoritmos de Busca e Otimização
 
