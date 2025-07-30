@@ -129,3 +129,5 @@ const SearchInput = () => {
 ## ✅ Conclusão
 
 O Lodash é um canivete suíço para o desenvolvedor JavaScript. Embora não seja estritamente necessário em muitos casos hoje em dia, seu conjunto de utilidades bem pensadas e robustas pode simplificar lógicas complexas, tornar o código mais legível e proteger contra erros comuns. Conhecer suas principais funções, como `debounce` e os métodos de coleção, é um diferencial para escrever código mais limpo e eficiente.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/032-search-and-optimization-algorithms.md) 👉
