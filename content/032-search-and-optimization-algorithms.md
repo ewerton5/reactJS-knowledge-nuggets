@@ -90,3 +90,5 @@ Após alguns passos, o Git irá apontar exatamente qual foi o primeiro *commit* 
 ## ✅ Conclusão
 
 Entender conceitos como **Complexidade Algorítmica** e algoritmos como a **Busca Binária** não é apenas um exercício acadêmico. Eles nos fornecem ferramentas mentais e práticas para escrever código mais performático e resolver problemas de forma mais eficiente. A mesma lógica de "dividir para conquistar" que otimiza uma busca em um array pode ser aplicada para otimizar um processo de depuração com o `git bisect`, economizando horas de trabalho e tornando nosso desenvolvimento mais inteligente.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/033-social-sign-in.md) 👉
