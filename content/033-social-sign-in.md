@@ -138,3 +138,5 @@ const handleSocialLogin = async (providerToken) => {
 ## ✅ Conclusão
 
 O Login Social é uma ferramenta poderosa para melhorar a aquisição e a experiência do usuário. Uma implementação bem-sucedida requer uma configuração cuidadosa nos painéis de desenvolvedor de cada provedor, a integração das bibliotecas corretas no lado do cliente e um backend robusto para validar os tokens. Acima de tudo, planejar o fluxo de pós-cadastro é essencial para garantir que você colete todas as informações necessárias do usuário, mantendo a conveniência do login social.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/034-ci-cd.md) 👉
