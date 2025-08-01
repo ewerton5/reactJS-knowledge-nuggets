@@ -61,6 +61,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Algoritmos de Busca e Otimização](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/032-search-and-optimization-algorithms.md)
 - [Implementando Login Social em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/033-social-sign-in.md)
 - [CI/CD: Automatizando o Ciclo de Vida do seu App](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/034-ci-cd.md)
+- [Desenvolvimento Paralelo com Mirage JS](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/035-parallel-development.md)
 
 ## 🤝 Contribuição
 
