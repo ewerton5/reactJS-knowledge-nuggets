@@ -116,3 +116,5 @@ Você pode configurar o Fastlane para construir, assinar e enviar seu app para o
 CI/CD é uma prática transformadora que introduz automação e segurança no ciclo de desenvolvimento. Ao configurar um pipeline, você garante que cada alteração no código seja automaticamente testada e, se aprovada, entregue de forma consistente.
 
 Ferramentas como o **GitHub Actions** tornaram a implementação de CI/CD mais acessível do que nunca. Como diz o ditado do desenvolvedor moderno: **"Automatize agora, para poder agradecer depois."**
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/035-parallel-development.md) 👉
