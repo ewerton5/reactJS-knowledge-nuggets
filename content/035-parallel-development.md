@@ -122,3 +122,5 @@ Se ambas as equipes seguiram o contrato à risca, a aplicação deve funcionar p
 ## ✅ Conclusão
 
 O Desenvolvimento Paralelo, suportado pelo Mirage JS e por um forte alinhamento inicial através de um **contrato de API**, é um workflow moderno que elimina gargalos e acelera a entrega de valor. Ele permite que a equipe de frontend construa e teste features completas, com lógica de estado e componentes de UI, de forma totalmente independente e simultânea ao trabalho do backend. O resultado é um ciclo de desenvolvimento mais rápido, colaborativo e eficiente.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/036-performance-optimization.md) 👉
