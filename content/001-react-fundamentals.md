@@ -147,4 +147,10 @@ Dominar estes três pilares é o primeiro grande passo para se tornar proficient
 
 Esta pílula serve como uma base sólida, seja para quem está começando sua jornada com React ou para quem deseja consolidar seus conhecimentos fundamentais.
 
+---
+
+A teoria foi só o aquecimento! A melhor forma de transformar conhecimento em uma habilidade sólida é colocando a mão na massa. 🛠️ Que tal testar seus novos poderes?
+
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/001-react-fundamentals.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/002-controlled-vs-uncontrolled.md) 👉
