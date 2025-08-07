@@ -140,3 +140,5 @@ Otimização de performance é um processo contínuo de identificar e resolver g
   * Use **`React.memo`**, **`useCallback`** e **`useMemo`** de forma estratégica para evitar renderizações e cálculos desnecessários.
 
 Aplicar essas técnicas nos locais certos é o que transforma uma aplicação funcional em uma aplicação com uma experiência de usuário excepcional.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/037-react-native-deploy.md) 👉
