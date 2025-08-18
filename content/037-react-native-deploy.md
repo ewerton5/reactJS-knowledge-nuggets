@@ -97,3 +97,5 @@ O versionamento de software geralmente segue o padrão **MAJOR.MINOR.PATCH** (ex
 ## ✅ Conclusão
 
 O processo de lançamento para teste interno, embora tenha muitos passos, torna-se uma rotina com a prática. Seguir um fluxo de trabalho consistente — com branches de build, atualização de changelogs e versionamento correto — é essencial para manter o ciclo de desenvolvimento organizado e garantir que os testadores sempre recebam a versão correta do aplicativo para validação.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/038-react-native-animations.md) 👉
