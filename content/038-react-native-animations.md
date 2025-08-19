@@ -116,3 +116,5 @@ Ambas as bibliotecas são capazes de criar belas animações, mas a escolha depe
 
   * **`Animated` API:** Suficiente para animações simples e diretas (como fade-ins, pop-ups). Lembre-se de **sempre** usar `useNativeDriver: true`.
   * **`React Native Reanimated`:** A escolha padrão e recomendada para qualquer animação interativa, baseada em gestos, ou em cenários onde a performance máxima é essencial. É a ferramenta profissional para criar animações nativas de 60 FPS.
+
+###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/039-react-native-advanced-animations.md) 👉
