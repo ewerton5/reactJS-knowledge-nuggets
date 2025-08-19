@@ -65,6 +65,7 @@ As pílulas estão organizadas em arquivos `.md` (Markdown), numerados e nomeado
 - [Otimização de Performance em React](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/036-performance-optimization.md)
 - [Lançamento de Apps para Teste Interno](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/037-react-native-deploy.md)
 - [Animações em React Native](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/038-react-native-animations.md)
+- [Animações Avançadas: Interpolação e Lottie](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/039-react-native-advanced-animations.md)
 
 ## 🤝 Contribuição
 
