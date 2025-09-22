@@ -172,3 +172,5 @@ Imagine que o item da lista é um componente separado (`<ItemDaLista />`) que re
   * Como podemos usar o Profiler do React DevTools para identificar esses problemas de performance em uma aplicação real?
 
 Este conjunto de exercícios proporciona uma jornada prática e completa pelos conceitos centrais apresentados em sua pílula de conhecimento. Bom trabalho para a equipe\!
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/001-react-fundamentals.md)
