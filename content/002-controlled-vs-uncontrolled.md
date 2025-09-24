@@ -158,4 +158,6 @@ Embora componentes não controlados tenham seu lugar, especialmente em otimizaç
 
 **Recomendação:** Para formulários, comece com o padrão de **componentes controlados**. Se a aplicação crescer e a performance se tornar um problema, adote uma biblioteca como o **React Hook Form** em conjunto com **Zod** ou **Yup**.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/002-controlled-vs-uncontrolled.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/003-conditional-rendering.md) 👉
