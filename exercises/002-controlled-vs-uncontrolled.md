@@ -21,7 +21,7 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 5.  Adicione um parágrafo `<p>` abaixo do formulário que exibe o valor do estado de `email` em tempo real, para que você possa ver a atualização a cada tecla pressionada.
 6.  Quando o formulário for submetido, exiba um `alert` ou `console.log` com os valores dos dois estados.
 
-**Pontos para discussão amanhã:**
+**Pontos para discussão:**
 * Por que o componente re-renderiza a cada tecla digitada?
 * Qual é a "fonte única da verdade" neste componente e por que isso é considerado uma vantagem?
 
@@ -37,7 +37,7 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 3.  Associe cada `<input>` à sua respectiva `ref`. **Não use `value` ou `onChange` ligados ao estado do React.**
 4.  Quando o formulário for submetido, acesse os valores diretamente do DOM através de `suaRef.current.value` e exiba-os em um `alert` ou `console.log`.
 
-**Pontos para discussão amanhã:**
+**Pontos para discussão:**
 * O que acontece quando você digita nos campos? O componente re-renderiza? Como podemos provar isso?
 * Onde está a "fonte da verdade" agora?
 * Comparando o código com o do Exercício 1, qual parece mais simples para esta tarefa específica?
@@ -59,7 +59,7 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 **Exercício Mental (para a discussão):**
 * Como você faria para implementar essa mesma validação em tempo real usando um componente **não controlado**? Seria prático? O que você precisaria adicionar que "quebraria" o propósito do padrão não controlado?
 
-**Pontos para discussão amanhã:**
+**Pontos para discussão:**
 * Qual padrão foi o encaixe natural para esta tarefa e por quê?
 * Este exercício destaca o principal trade-off entre os dois padrões. Qual é ele? (Controle e reatividade vs. Simplicidade e performance).
 
@@ -74,7 +74,7 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 2.  Faça com que este campo **receba o foco automaticamente** assim que o componente for montado na tela.
 3.  **Dica:** Você precisará combinar `useRef` para obter a referência do input e `useEffect` com um array de dependências vazio (`[]`) para executar a ação de foco na montagem. A ação é `suaRef.current.focus()`.
 
-**Pontos para discussão amanhã:**
+**Pontos para discussão:**
 * Por que precisamos do `useEffect` para fazer o foco funcionar de forma confiável?
 * Esta é uma ação "declarativa" ou "imperativa"? Por quê?
 
@@ -92,12 +92,12 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 5.  Use um bloco `try/catch` para capturar os erros de validação.
 6.  Se houver erros, guarde-os em um novo estado (ex: `const [errors, setErrors] = useState({})`) e exiba as mensagens de erro abaixo de cada campo correspondente.
 
-**Pontos para discussão amanhã:**
+**Pontos para discussão:**
 * Quais as vantagens de declarar as regras de validação em um esquema separado do componente?
 * Como este exercício nos prepara para entender o que bibliotecas como React Hook Form fazem por baixo dos panos?
 
 ---
 
-Bom trabalho, equipe! Vamos usar esses exercícios para gerar uma ótima discussão amanhã.
+Bom trabalho, equipe! Vamos usar esses exercícios para gerar uma ótima discussão.
 
 👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/002-controlled-vs-uncontrolled.md)
