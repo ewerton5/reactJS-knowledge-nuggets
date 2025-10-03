@@ -99,3 +99,5 @@ Olá, equipe! A pílula de hoje abordou um tema central: como gerenciamos dados 
 ---
 
 Bom trabalho, equipe! Vamos usar esses exercícios para gerar uma ótima discussão amanhã.
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/002-controlled-vs-uncontrolled.md)
