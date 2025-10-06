@@ -124,4 +124,6 @@ A renderização condicional é essencial para a criação de UIs dinâmicas. Pa
 
 Dominar essas técnicas e seus detalhes garantirá um código mais robusto, legível e seguro.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/003-conditional-rendering.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/004-jsx-lists.md) 👉
