@@ -99,3 +99,5 @@ Olá, equipe! A pílula de hoje nos mostrou as ferramentas para fazer nossas int
 * Vamos analisar a estrutura do `PainelDeControle`. Por que `if / else` foi a melhor escolha para os estados de carregamento e erro?
 * Por que o ternário se encaixou bem para exibir o nome do usuário?
 * Por que o `&&` foi a ferramenta perfeita para o selo de "Admin"?
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/003-conditional-rendering.md)
