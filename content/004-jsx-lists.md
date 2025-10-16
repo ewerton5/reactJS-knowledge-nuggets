@@ -138,4 +138,6 @@ No React Native, a escolha é clara: **use `FlatList` (ou `FlashList`) por padr�
 
 Investir tempo na configuração correta da `FlatList` — usando uma `key` estável, memoizando `renderItem` com `useCallback` e ajustando as props de otimização — é um dos melhores retornos de investimento para garantir uma aplicação mobile fluida, rápida e profissional.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/004-jsx-lists.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/005-react-context-api.md) 👉
