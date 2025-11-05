@@ -175,3 +175,5 @@ Você não precisa escrever o componente inteiro, apenas identificar qual prop d
 
   * Por que usar essas props (`ListHeaderComponent`, `ListEmptyComponent`, etc.) é melhor do que tentar implementar a mesma lógica com `if/else` fora da `FlatList`?
   * Qual é o caso de uso mais comum para a `ListFooterComponent` em aplicações do mundo real?
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/004-jsx-lists.md)
