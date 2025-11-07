@@ -158,4 +158,6 @@ A **Context API** é a ferramenta padrão do React para resolver o problema de *
 
 Ao criar um **Provider** para encapsular a lógica e um **hook customizado** para consumir os dados, você obtém uma arquitetura de estado global que é ao mesmo tempo simples, robusta e fácil de manter.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/005-react-context-api.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/006-design-system.md) 👉
