@@ -164,3 +164,5 @@ Refatore a definição do `value` no `AuthProvider` usando o hook `useMemo` para
 
   * Por que `useMemo` é necessário aqui?
   * Qual seria o array de dependências correto para o `useMemo` (e `useCallback`)?
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/005-react-context-api.md)
