@@ -300,4 +300,6 @@ Para criar componentes que "envolvem" outros (Wrapper Components) sem perder fle
 
 A organização de um projeto com base em um Design System vai muito além do visual: ela impacta diretamente na produtividade da equipe e na escalabilidade da aplicação. Invista tempo na estrutura inicial, aproveite ferramentas como *root imports* para limpar seu código e mantenha uma arquitetura de pastas clara e modular. Esses hábitos criam uma base sólida para o crescimento sustentável de qualquer projeto.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/006-design-system.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/007-navigation.md) 👉
