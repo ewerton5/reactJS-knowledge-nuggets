@@ -151,3 +151,5 @@ Como você organizaria esses arquivos na pasta `src/assets/images` e como faria 
 **Pontos para discussão:**
 
   * O React Native lida nativamente com os sufixos `@2x` e `@3x`. Como a estrutura de pastas ajuda ou atrapalha esse comportamento automático?
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/006-design-system.md)
