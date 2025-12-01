@@ -166,4 +166,6 @@ Embora ambos resolvam o problema de navegação, cada biblioteca é mestre em se
 
 Compreender a filosofia e os hooks principais de cada uma é fundamental para construir aplicações React coesas e intuitivas em qualquer plataforma.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/007-navigation.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/008-side-effects.md) 👉
