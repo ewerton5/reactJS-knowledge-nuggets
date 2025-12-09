@@ -177,3 +177,5 @@ export function ProdutoScreen() {
 
   * Por que essa configuração fica no "Roteador" (Navigator) e não dentro do componente da tela?
   * Na Web (`react-router-dom`), como faríamos para mudar o título da aba do navegador ou esconder um menu ao entrar em uma rota específica? (Dica: é a mesma lógica ou precisamos de uma abordagem diferente?)
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/007-navigation.md)
