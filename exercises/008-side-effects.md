@@ -129,3 +129,5 @@ api.interceptors.request.use(config => {
 -----
 
 Bons códigos\! Vamos ver quem domina a comunicação com o mundo.
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/008-side-effects.md)
