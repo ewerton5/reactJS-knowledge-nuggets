@@ -165,4 +165,6 @@ O operador `...` é uma ferramenta de dupla utilidade indispensável no JavaScri
 
 Dominar seu uso não só torna o código mais conciso e legível, mas também abre portas para padrões de programação mais robustos e flexíveis.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/009-spread.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/010-redux.md) 👉
