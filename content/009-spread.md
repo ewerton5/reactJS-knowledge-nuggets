@@ -90,8 +90,6 @@ console.log(outrasProps); // { email: 'ana@example.com', ativo: true }
 
 ## 🚀 Padrões Avançados e de Múltiplo Nível
 
-###### 👈 [Voltar para pílula anterior](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/007-navigation.md](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/008-side-effects.md)
-
 ### Passagem de Múltiplos Parâmetros
 O spread pode "desempacotar" um array em argumentos individuais para uma função.
 
