@@ -1,4 +1,4 @@
-Soluções dos exercícios: Pílula de Conhecimento 09 em Prática
+### **Soluções dos exercícios: Pílula de Conhecimento 09 em Prática**
 
 Esta série de encontros explorou a versatilidade do operador `...` (Spread/Rest), indo desde a manipulação básica de arrays até conceitos avançados de gerenciamento de memória e padrões de componentes React.
 
