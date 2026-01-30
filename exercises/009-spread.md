@@ -199,3 +199,5 @@ console.log('Original - Tema:', original.config.tema);  // O que imprime?
 ---
 
 Bom exercício! Vamos ver quem cai na pegadinha da cópia rasa.
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/009-spread.md)
