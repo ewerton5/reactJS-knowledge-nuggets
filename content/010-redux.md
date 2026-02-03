@@ -174,4 +174,6 @@ Redux é uma ferramenta extremamente poderosa, ideal para aplicações grandes o
 
 Com o **Redux Toolkit**, o Redux se tornou muito mais acessível e menos verboso, consolidando-se como uma solução robusta e moderna para os desafios de estado em aplicações React complexas.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/010-redux.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/011-style.md) 👉
