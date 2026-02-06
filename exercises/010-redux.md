@@ -190,3 +190,6 @@ export default function* checkoutSaga() {
 ---
 
 Bons códigos! Vamos ver quem consegue manter o estado global organizado.
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/010-redux.md)
+
