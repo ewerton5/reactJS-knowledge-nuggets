@@ -205,4 +205,6 @@ A estilização no ecossistema React é flexível e poderosa.
 
 Dominar essas ferramentas permite criar interfaces consistentes, bonitas e fáceis de manter.
 
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/011-style.md)
+
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/012-react-query.md) 👉
