@@ -241,3 +241,5 @@ export const BotaoAcao = styled.TouchableOpacity<BtnProps>`
 **Pontos para discussão:**
 
 * Qual a diferença entre tratar estilos condicionais usando as `props` do `styled-components` versus criar arrays lógicos no estilo antigo (ex: `style={[styles.btn, isDanger && styles.danger]}`)? Qual facilita mais a leitura do componente final?
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/011-style.md)
