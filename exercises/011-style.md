@@ -1,4 +1,4 @@
-## 🚀 **Oficina Prática: Dominando Layouts com `styled-components`
+## 🚀 **Oficina Prática: Dominando Layouts com `styled-components`**
 
 Olá, equipe! A pílula de hoje nos mostra que estilizar no ecossistema React vai muito além de pintar a tela. Vamos usar o poder do `styled-components` para resolver problemas reais de layout, transitando entre cenários Web e Mobile, e entendendo como o Flexbox resolve 99% dos nossos problemas.
 
