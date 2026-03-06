@@ -89,7 +89,6 @@ function TodosList() {
 
   * **Vantagens:**
       * **Clareza:** As propriedades nomeadas (`queryKey`, `queryFn`) tornam o código auto-descritivo.
-      * **Reatividade Automática:** Se uma variável de estado (como `page`) usada dentro da `queryKey` mudar, o React Query automaticamente refaz a busca. Esta é a principal vantagem.
   * **Desvantagens:**
       * Ligeiramente mais verboso.
 
@@ -192,18 +191,6 @@ function AddTodoForm() {
 import { useMutation } from '@tanstack/react-query';
 
 function AddTodoForm() {
-  const mutation = useMutation({
-    mutationFn: (newTodo) => {
-      return api.post('/todos', newTodo);
-    },
-    // Callbacks para reagir ao resultado
-    onSuccess: () => {
-      console.log('Todo criado com sucesso!');
-    },
-    onError: () => {
-      console.error('Falha ao criar todo.');
-    },
-  });
   const mutation = useMutation(
     (newTodo) => {
       return api.post('/todos', newTodo);
@@ -305,5 +292,7 @@ React Query muda a forma como pensamos sobre dados em aplicações React. Ele no
   * **Código mais simples:** Reduz drasticamente a quantidade de código boilerplate que normalmente escrevemos para lidar com dados assíncronos.
 
 Para a maioria das aplicações que consomem APIs, adotar o React Query é uma das melhores decisões para aumentar a produtividade e a qualidade da experiência do usuário em aplicações que consomem APIs.
+
+👉 [Clique aqui para praticar com exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/exercises/012-react-query.md)
 
 ###### [Avançar para próxima pílula](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/content/013-code-standardization.md) 👉
