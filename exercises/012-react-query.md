@@ -13,7 +13,8 @@ Olá, equipe! Chegou a hora de aposentar os infinitos `useState(false)` para `is
 
 **Objetivo:** Configurar o provedor global e entender a diferença entre Estado do Cliente e Estado do Servidor.
 
-**Tarefa:** 1. Complete o código do `App.tsx` para fornecer o contexto do React Query para a aplicação.
+**Tarefa:**
+1. Complete o código do `App.tsx` para fornecer o contexto do React Query para a aplicação.
 2. Responda mentalmente: Onde você guardaria a informação de "Tema Escuro/Claro" e onde guardaria a "Lista de Usuários Cadastrados"?
 
 ```tsx
