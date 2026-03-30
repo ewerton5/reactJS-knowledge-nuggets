@@ -208,3 +208,5 @@ export function NovoProdutoForm() {
 ---
 
 Bom código! Vamos ver quem consegue se libertar do `useEffect` de uma vez por todas.
+
+👉 [Clique aqui para ver as soluções dos exercícios](https://github.com/ewerton5/reactJS-knowledge-nuggets/blob/main/solutions/012-react-query.md)
